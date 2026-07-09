@@ -216,6 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos ocultos del sistema de macOS (Evita basura del Finder)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Archivos multimedia pesados (Evita videos e imágenes grandes en el historial)
 *.mp4
 *.mov
-.DS_Store
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+
+# Archivos comprimidos (Por si descargas ejercicios en ZIP o RAR)
+*.zip
+*.tar.gz
+*.rar
+*.7z
